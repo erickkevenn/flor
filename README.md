@@ -10,4 +10,11 @@ A atividade tem como objetivo aplicar conceitos fundamentais de computação gr�
 
 1. Clone o repositório ou baixe os arquivos.
 2. Instale as dependências necessárias.
-3. Execute o arquivo principal conforme instruções do professor.
+3. Compile o código fonte utilizando o comando:
+    ```
+    g++ flor.cpp -o flor -lglut -lGL -lGLU -lm
+    ```
+4. Execute o programa com:
+    ```
+    ./flor
+    ```
